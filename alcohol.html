@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="alcohol.css">
+</head>
+<body>
+   <form class="container">
+        <h1 class="header">Alcohol Allowance Calculator</h1>
+
+        <label class="carbs" for="carb-content">Carbohydrate content:</label>
+        <input type="number"  class="numberInput carbs col-2" id="carb-content"> <span class="unit carbs col-2">g</span>
+
+        <label class="cals" for="total-cal">Total calories:</label>
+        <input type="number" class="numberInput cals col-2" id="total-cal"> <span class="unit cals col-2">Kcal</span>
+
+        <span class="inline">
+            <label for="genderF" class="gender female col-2">Female:</label>
+            <input type="checkbox" id="genderF">
+
+            <label for="genderM" class="gender male">Male:</label>
+            <input type="checkbox" id="genderM">
+        </span>
+
+        <button type="button" id="submit">Submit</button>
+
+        <h2 class="result">Hello, World</h2><!-- make transparent on css then toggle class when submit button is pressed in JS-->
+    
+   </form>
+
+   
+
+
+
+
+        <script src="alcohol.js"></script>
+</body>
+</html>
